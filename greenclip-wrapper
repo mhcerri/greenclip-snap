@@ -1,0 +1,4 @@
+#!/bin/sh
+mkdir -p "$SNAP_USER_DATA/.config"
+mkdir -p "$SNAP_USER_DATA/.cache"
+"$SNAP/bin/greenclip" "$@"
